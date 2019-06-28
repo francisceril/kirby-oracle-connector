@@ -18,7 +18,7 @@ $ git submodule add https://github.com/francisceril/oracle-connector site/plugin
 
 ## Setup
 
-### Configuration
+### 1. Kirby Configuration
 
 Add your database configuration in your ```site/config/config.php```
 
@@ -36,3 +36,6 @@ return [
     ]
 ];
 ```
+
+### 2. Server Configuration
+Install the [required PHP extension](https://www.php.net/manual/en/ref.pdo-oci.php) if not already available.
