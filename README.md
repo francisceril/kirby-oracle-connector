@@ -18,9 +18,9 @@ $ git submodule add https://github.com/francisceril/oracle-connector site/plugin
 
 ## Setup
 
-### Add your configuration
+### Configuration
 
-Add your database configuration in you ```site/config/config.php```
+Add your database configuration in your ```site/config/config.php```
 
 ```sh
 <?php
